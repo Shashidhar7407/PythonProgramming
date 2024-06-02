@@ -57,3 +57,18 @@ a=5
 print(id(a))
 b=a
 print(id(b))
+
+#here we can clearly see the id is assigned to variable not to the value'
+# so we can say that the variable is an object and the value is an attribute of the object
+#we have assigned a to b and checked the id we can see the id didn't change because we are assigned to an existing object
+
+
+list_a=[1,2,3,4]
+list_b=list_a
+print(id(list_a))
+print(id(list_b))
+list_b[3]="shashi"
+print(id(list_b))
+list_a=["give","me","some","money"]
+print(id(list_a))
+print(id(list_b))
